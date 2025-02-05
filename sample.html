@@ -1,0 +1,24 @@
+<html>
+<head></head>
+<body>
+
+<button id ="mybtn">Click Me</button>
+<p id="date"></p>
+<input type="text"></input>
+
+<p id="demo1">This is static text message</p>
+<p id="demo2">Hello</p>
+
+</body>
+
+<script>
+document.getElementById("demo1").innerHTML="This is dynamic text message"
+document.getElementById("demo2").innerHTML="Hello World"
+document.getElementById("mybtn").onclick=displaydate;
+
+function displaydate(){
+document.getElementById("date").innerHTML=Date();
+}
+</script>
+
+</html>
