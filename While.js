@@ -12,7 +12,7 @@ while(b<=10){
 }
 //odd no.s
 let d=1;
-while(i<=10){
+while(d<=10){
     console.log(d);
     d=d+2;
 }

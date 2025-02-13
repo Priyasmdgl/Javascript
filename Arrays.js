@@ -37,7 +37,11 @@ console.log(name.length);
 for(i=0;i<=name.length-1;i++){
     console.log(name[i]);
 }
-//for each loop
+//for each(of) loop
 for(let a of name){
     console.log(a);
+}
+//for in loop
+for(let b in name){
+    console.log(b);
 }
