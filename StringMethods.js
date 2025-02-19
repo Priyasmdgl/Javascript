@@ -19,4 +19,11 @@ console.log(a.split(" ")); //splits based on the delimiter mentioned
 //trim
 let b=" Hello ";
 console.log(b.trim()); //deletes the empty spaces
-
+//length
+console.log(b.length);
+//includes 
+console.log(a.includes("All"));
+//indexof-returns the first occurence of the string
+console.log(a.indexOf("All"));
+//slice
+console.log(a.slice(3,7));
