@@ -27,6 +27,8 @@ console.log(Math.ceil(4.1));
 console.log(Math.max(1, 5, 3));  
 //miniumum value
 console.log(Math.min(1, 5, 3));  
+//returns random value
+console.log(Math.random());
 //returns power of the value
 console.log(Math.pow(2, 3));  
 //returns square root of the value
