@@ -9,28 +9,28 @@ console.log(x,y,z);
 console.log(Number.isInteger(a)); //checks the number is integer or not
 //to fixed
 let num = 2.5697;
-num.toFixed(2); 
+console.log(num.toFixed(2)); 
 //to precision
 let num1 = 348.2569;
-num.toPrecision(3);
+console.log(num.toPrecision(3));
 //is NaN
-isNaN("hello");  
-isNaN(123);      
+console.log(isNaN("hello"));  
+console.log(isNaN(123));      
 //rounds to the nearest integer value
-Math.round(4.7);  
-Math.round(4.4);  
+console.log(Math.round(4.7));  
+console.log(Math.round(4.4));  
 //rounds down to the nearest integer value
-Math.floor(4.7);  
+console.log(Math.floor(4.7));  
 //rounds up to the nearest integer value
-Math.ceil(4.1);  
+console.log(Math.ceil(4.1));  
 //maximum value
-Math.max(1, 5, 3);  
+console.log(Math.max(1, 5, 3));  
 //miniumum value
-Math.max(1, 5, 3);  
+console.log(Math.max(1, 5, 3));  
 //returns power of the value
-Math.pow(2, 3);  
+console.log(Math.pow(2, 3));  
 //returns square root of the value
-Math.sqrt(16);  
+console.log(Math.sqrt(16));  
 //parseint
 let s="123";
 console.log(typeof(s));
