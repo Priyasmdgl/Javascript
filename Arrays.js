@@ -42,6 +42,11 @@ for(let a of name){
     console.log(a);
 }
 //for in loop
+//iterates over indexes
 for(let b in name){
     console.log(b);
+}
+//iterates over keys
+for(let c in person1){
+    console.log(c);
 }
